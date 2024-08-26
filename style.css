@@ -1,0 +1,83 @@
+/* General CSS for all type of screens */
+
+/* Entire Container */
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+/* Headings */
+h1.headingText {
+    color: #add8e6;
+    font-family: "Ga Maamli", fantasy;
+    border-bottom: 2px solid #add8e6;
+}
+
+/* Intro Section */
+.intro {
+    font-family: "Roboto", sans-serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn {
+    color: black;
+    font-family: "Ga Maamli", fantasy;
+    text-decoration: none;
+    text-align: center;
+    background: #add8e6;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 18px;
+    transition-duration: 0.3s;
+}
+
+
+/* Education Section */
+#education,
+#skills,
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Sub headings */
+b.headingText {
+    color: #d3d3d3;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+/* Form */
+div.form{
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 24px;
+    width: 50%;
+}
+
+/* Handles */
+div.handles{
+    display: flex;
+    gap: 100px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+div.handles > a{
+    color: #add8e6;
+    transition-duration: 0.3s;
+}
+
+div.footer > a{
+    color: #d3d3d3;
+}
