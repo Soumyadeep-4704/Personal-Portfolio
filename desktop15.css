@@ -1,0 +1,154 @@
+body{
+    background: #2d2d2e;
+}
+
+#navbar{
+    color: antiquewhite;
+    display: flex;
+}
+
+#navbar > .left{
+    width: 30%;
+    color: #add8e6;
+    margin: 0 40px;
+    padding: 20px 20px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#navbar > .right{
+    display: flex;
+    font-size: 1.38rem;
+    font-weight: 800;
+    transition-duration: 0.3s;
+}
+
+#navbar .right a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 0 36px;
+    padding: 20px 20px;
+}
+
+a.navItem{
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Home Section */
+#home{
+    height: 100vh;
+}
+
+#home > .welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.welcome > .profileText{
+    color: whitesmoke;
+    font-family: "Ga Maamli", fantasy;
+    font-size: 2.8rem;
+    width: 30%;
+}
+
+#element{
+    color: #add8e6;
+}
+
+.profilepic > .primary{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition-duration: 0.6s;
+}
+
+.intro > p{
+    color: #D3D3D3 ;
+    font-weight: 600;
+    margin: 10px 40px;
+    padding: 10px 20px;
+}
+
+/* Education Section */
+.horizontal{
+content: ' ';
+border: 3px solid #D3D3D3;
+width: 70%;
+}
+
+.vertical{
+    content: ' ';
+    border: 3px solid #D3D3D3;
+    height: 52px;
+}
+
+div.verticalLines{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 521px;
+}
+.cards > .card{
+    background: #add8e6;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    transition-duration: 0.3s;
+}
+.card > span{
+    position: absolute;
+    margin: 28% 0 0 10%;
+}
+
+.cardText{
+    position: absolute;
+    margin: 36% 4% 0 20%;
+}
+
+div.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 322px;
+}
+
+/* Contact Section */
+#contact > p{
+    color: #D3D3D3;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin: 10px 40px;
+    padding: 10px 20px;
+}
+
+/* Form */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #d3d3d3;
+}
+
+input[type=submit] {
+    background-color: #add8e6;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
