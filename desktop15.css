@@ -93,6 +93,7 @@ width: 60%;
 div.verticalLines{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 446px;
 }
 .cards > .card{
