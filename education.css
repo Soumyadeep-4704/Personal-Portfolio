@@ -1,0 +1,111 @@
+/* Education Section */
+.horizontalLine{
+    content: ' ';
+    border: 3px solid #D3D3D3;
+    width: 50%;
+    }
+    
+    .vertical{
+        content: ' ';
+        border: 3px solid #D3D3D3;
+        height: 52px;
+    }
+    
+    div.verticalLines{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 446px;
+    }
+    .cards > .card{
+        background: #add8e6;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: relative;
+        transition-duration: 0.3s;
+    }
+    
+    .cardText{
+        position: absolute;
+        margin: 20% 6% 0 16%
+    }
+    
+    div.cards{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 258px;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 430px;
+        margin-bottom: 16px;
+    }
+
+    
+    @media(max-width:2000px){
+        .horizontalLine{
+            width: 68%;
+        }
+    }
+
+    @media(max-width:1500px){
+        .horizontalLine {
+            width: 74%;
+        }
+    }
+    
+    @media(max-width:1250px){
+        .horizontalLine {
+            width: 86.25%;
+        }
+    }
+
+    @media(max-width:1080px){
+        .icon{
+            gap: 276px;
+        }
+
+        .horizontalLine{
+            width: 88%;
+        }
+
+        div.verticalLines{
+            gap: 296px;
+        }
+
+        div.cards{
+            gap: 100px;
+        }
+    }
+
+    @media(max-width:880px){
+        #education{
+            margin-top: 8rem;
+        }
+    }
+
+    @media(min-width:200px) and (max-width:881px){
+        .horizontalLine, .verticalLines, .vertical, .icon{
+            display: none;
+        }
+
+        div.cards{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .cards > .card{
+            height: 140px;
+            width: 380px;
+            border-radius: 25px;
+            border: solid #D3D3D3 4px;
+        }
+
+        .cardText{
+            margin: 14% 4% 0 8%;
+        }
+    }

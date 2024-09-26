@@ -1,0 +1,42 @@
+/* Hover Effect for Navbar */
+a.navItem::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #add8e6;
+    transition: width 0.4s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+  
+a.navItem:hover::after {
+    width: 100%;
+}
+
+
+/* hover effect for button */
+a.btn:hover{
+    transform: scale(1.2);
+}
+
+/* hover effect for cards */
+.cards > .card:hover{
+    transform: scale(1.2);
+}
+
+/* hover effect for profile pic */
+.profilepic > .primary:hover{
+    transform: scale(1.4);
+}
+
+/* Submit Button in Form */
+input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+/* Handles */
+div.handles > a:hover{
+    transform: scale(1.6);
+}
