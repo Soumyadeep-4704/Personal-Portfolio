@@ -56,7 +56,7 @@
     #home > .welcome{
         height: 60px;
     }
-    
+
     .welcome > .profileText{
         font-size: 0.76rem;
     }
@@ -66,8 +66,8 @@
         width: 120px;
     }
 
-    .intro{
-        margin-top: 12px;
+    .intro > h1.headingText{
+        margin-top: 8px;
     }
 
     .intro > p{
