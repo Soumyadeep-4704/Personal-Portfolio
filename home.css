@@ -53,6 +53,10 @@
 }
 
 @media(min-width:200px) and (max-width:881px){
+    #home{
+        height: 56vh;
+    }
+
     #home > .welcome{
         height: 60px;
     }
