@@ -54,7 +54,7 @@
 
 @media(min-width:200px) and (max-width:881px){
     #home > .welcome{
-        height: 40vh;
+        height: 60px;
     }
     
     .welcome > .profileText{
