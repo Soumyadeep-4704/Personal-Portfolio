@@ -54,7 +54,7 @@
 
 @media(min-width:200px) and (max-width:881px){
     #home{
-        height: 56vh;
+        height: 50vh;
     }
 
     #home > .welcome{
