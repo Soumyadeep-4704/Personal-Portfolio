@@ -87,6 +87,10 @@
     }
 
     @media(min-width:200px) and (max-width:881px){
+        #education{
+            margin-top: 18px;
+        }
+        
         .horizontalLine, .verticalLines, .vertical, .icon{
             display: none;
         }
