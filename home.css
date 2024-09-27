@@ -62,8 +62,9 @@
     }
 
     .profilepic > .primary {
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
+        margin-top: 24px;
     }
 
     .intro > h1.headingText{
