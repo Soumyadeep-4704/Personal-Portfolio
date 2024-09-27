@@ -99,13 +99,13 @@
         }
 
         .cards > .card{
-            height: 140px;
-            width: 380px;
+            height: 100px;
+            width: 280px;
             border-radius: 25px;
             border: solid #D3D3D3 4px;
         }
 
         .cardText{
-            margin: 14% 4% 0 8%;
+            margin: 8% 4% 0 6%;
         }
     }
