@@ -91,7 +91,7 @@ div.icon > span{
 
 @media(min-width:200px) and (max-width:1081px){
     #container{
-        gap: 40px;
+        gap: 16px;
     }
     
     .headingText{
