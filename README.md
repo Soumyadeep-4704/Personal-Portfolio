@@ -3,4 +3,8 @@
 ## Contents
 - Navigation bar
 - Home-page
-- 
+- Education Section
+- Skills Section
+- Certification and Badges
+- Projects Section
+- Contact Section
