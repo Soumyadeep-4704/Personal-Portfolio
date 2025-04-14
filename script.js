@@ -1,4 +1,4 @@
-// type script
+// type JS
 var typed = new Typed('#element', {
     strings: ['Soumyadeep Paul', ' a Web Developer', '&amp; a tech-enthusiast'],
     typeSpeed: 50,
