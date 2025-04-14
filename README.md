@@ -1,4 +1,6 @@
-# DISCLAIMER:
-This site is under Testing Period and suggestions about any error are welcomed.
-## FOR DEMO VISIT:  
-  https://soumyadeep-4704.github.io/Personal-Portfolio/
+<h1 align="center">Personal-Portfolio Website</h1>
+
+## Contents
+- Navigation bar
+- Home-page
+- 
